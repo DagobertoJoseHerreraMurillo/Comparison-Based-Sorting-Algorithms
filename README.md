@@ -1,6 +1,6 @@
 # This repo contains the code for the external memory merge-sort algorithm 
 
-Please, take a look to the [report](https://github.com/sergiers3/How-to-visualize-3D-data-/blob/master/Final%20report.pdf) for further info!
+Please, take a look to the [report](https://github.com/sergiers3/external--memory-merge-sort-algorithm-/blob/master/Report.pdf) for further info!
 
 ## Intro:
 The purpose of this assignment is to examine the performance of an external- memory merge-sort algorithm under different parameters. The project is made up of two parts. The first section explores and evaluates four different ways to read data from, and write data to secondary memory (read & write, freed & fwrite, fread & fwrite with buffer size, and read & write through memory map- ping). In the second section, the external multi-way merge-sort algorithm uses the most performant stream implementation to read and write data to disk. This algorithm was implemented according to the specifications described by Garcia-Molina, Ullman & Widom (2016). Finally, the differences and similari- ties between the expected and observed behavior are discussed, as well as the most convenient parameters for varying input sizes.
